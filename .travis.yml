@@ -8,8 +8,9 @@ cache:
     - "node_modules"
 
 install:
-  - yarn install
-  - yarn build
+  - echo "Skipping build"
+  # - yarn install
+  # - yarn build
 
 script:
   - echo "Skipping tests"
